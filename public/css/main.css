@@ -1,0 +1,66 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.students-list {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.students-list-team {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.students {
+    width: 100%;
+    min-height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.students__item {
+    width: 100%;
+    padding: 5px;
+}
+
+.students__item span{
+    display: block;
+    padding: 9px;
+    color: #fff;
+    background: darkslategray;
+    cursor: pointer;
+}
+
+.teams-students {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.students-list__title {
+    background: green;
+    width: 100%;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
